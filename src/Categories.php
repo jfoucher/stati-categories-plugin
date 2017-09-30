@@ -54,7 +54,6 @@ class Categories extends Plugin
 
         $config['categories'] = $categories;
         $site->setConfig($config);
-        return $categories;
     }
 
     /**
