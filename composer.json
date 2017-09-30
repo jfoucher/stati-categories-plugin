@@ -1,0 +1,22 @@
+{
+    "name": "stati/categories",
+    "description": "A Stati plugin to generate categories. Included by default",
+    "authors": [
+        {
+            "name": "jfoucher",
+            "email": "jfoucher@6px.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Stati\\Plugin\\Categories\\": "src/", "Stati\\Plugin\\Categories\\Tests\\": "tests/"}
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "suggest": {
+        "stati/stati": "An extensible, jekyll-compatible PHP static site generator"
+    },
+    "bin": ["build/categories.phar"],
+    "license": "MIT",
+    "homepage": "https://stati.jfoucher.com"
+}
